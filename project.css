@@ -1,9 +1,9 @@
 header{
-    background-color: #B68F40
+    background-color: #58E8A1
 }
 h1{
     font-size: 50px;
-    color: #23BE61;
+    color: #030a00;
     text-align: center;
     margin-bottom: 5px;
     border: 5px;
@@ -15,6 +15,10 @@ nav{
     text-align: right;
     transform: translateY(-30px);
 
+}
+
+main{
+    background-color: #92da76 ;
 }
 
 .frogs {
@@ -39,13 +43,15 @@ nav{
 }
 
 footer {
+    background-color: #58E8C9 ;
     display: flex;
     justify-content: flex-start;   
-    padding: 10px;
+    padding: 0px;
+
 }
 
 footer p {
-    margin: 0;
+    margin: 0 20px;
     margin-right: 20px;
 }
 
