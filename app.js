@@ -24,7 +24,7 @@ function frogsurvey() {
 
     if (!isNaN(usersfrog) && usersfrog > 0) {
       alert("THAT'S SICK");
-    } else {
+    } else {                       //broken
       alert("I said numbers only!");
     }
   }
