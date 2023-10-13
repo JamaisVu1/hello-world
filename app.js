@@ -13,6 +13,17 @@ if (usersanswer && usersanswer.toLowerCase() === 'yes') {
     alert("You'll like it!");
   }
 
+  const usersfrog = prompt ("Do you have a pet frog? Numbers only please!");
+
+  if (usersfrog > 0) {
+    alert("THATS SICK");
+  }
+
+  else if (usersfrog < 1) {
+    alert(" Get one!")
+  }
+
+
 
 
 
