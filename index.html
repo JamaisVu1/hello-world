@@ -5,6 +5,8 @@
 
     <link rel="stylesheet" href="project.css" />
 
+    <script src="app.js"></script>
+
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,29 +14,8 @@
     <title>Cool Frogs</title>
   </head>
 
-  <body>
-    <script>
-      alert("Certified frog fanatics only!");
-
-      const usersanswer = prompt("Are you a frog fanatic? Yes answers only.");
-
-      console.log("user typed: " + usersanswer);
-
-      if (usersanswer && usersanswer.toLowerCase() === "yes") {
-        document.write("Absolutely you are!");
-      } else {
-        alert("You'll like it!");
-      }
-
-      const usersfrog = prompt("How many frogs do you have? Numbers only please!");
-
-      if (usersfrog > 0) {
-        alert("THATS SICK");
-      } else if (usersfrog < 1) {
-        alert(" Get one!");
-      }
-    </script>
-
+  <body onload="frogsurvey();">
+ 
     <header>
       <h1>Sickest Frogs</h1>
 
